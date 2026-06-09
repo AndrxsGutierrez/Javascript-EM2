@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>to-do</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    
+  </head>
+  <body id="body" class="">
+    <div id="app" class="flex flex-col items-center justify-center h-full" >
+      <section class=" border-2 h-130 w-130 rounded-2xl flex flex-col" >
+        <h2 class="p-4 text-center text-3xl font-bold text-black-800">Mis tareas</h2>
+        <div id="mostrar_tareas" class="w-full px-4 pb-4">
+          <section class="flex-1 w-full ">
+          <table class="w-full table-fixed rounded-md overflow-hidden">
+            <thead class="bg-gray-300">
+              <tr class="text-left uppercase h-14 bg-violet-400 rounded-2xl">
+                <th class="pl-4">id</th>
+                <th class="pl-4">title</th>
+                <th class="pl-4">status</th>
+                <th class="pl-4">actions</th>
+              </tr>
+            </thead>
+            <tbody id="tareas">
+              
+            </tbody>
+          </table>
+        </section>
+        </div>
+      </section>
+        <form id="guardar" class="flex flex-col w-130 mt-3 gap-1.5">
+          <input
+            type="text"
+            id="title"
+            name="title"
+            required
+            placeholder="title"
+            class="h-10 pl-4 bg-yellow-50 border-none rounded-xl border-slate-900"
+          />
+          <select
+            id="completed"
+            name="completed"
+            class="h-10 pl-4 bg-yellow-50 border-none rounded-xl border-slate-900"
+
+          >
+            <option value="false">No completada</option>
+            <option value="true">Completada</option>
+          </select>
+           
+          <button
+            type="submit"
+            id="btn_guardar"
+            class="h-10  bg-violet-400 text-white uppercase hover:bg-violet-600  active:bg-violet-800 transition cursor-pointer border-none rounded-xl"
+          >Enviar</button>
+        </form>
+      </section>
+      <section>
+        <button id="dark_mode"><span class="material-symbols-outlined">
+dark_mode
+</span></button>
+      </section>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

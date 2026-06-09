@@ -1,0 +1,20 @@
+{
+  "todos": [
+    {
+      "title": "Hola mundo",
+      "completed": true,
+      "id": "YzbR8A9OHIQ"
+    },
+    {
+      "title": "preba",
+      "completed": false,
+      "id": "EhXj4L4YniA"
+    },
+    {
+      "title": "12",
+      "completed": false,
+      "id": "0hxg214Ty3Q"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
