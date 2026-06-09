@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "nombre": "Andres",
+      "apellido": "Gutierrezzz",
+      "email": "andres@gmail.com",
+      "password": "1",
+      "roles": [
+        "ADMIN"
+      ],
+      "id": "LcAK5MBcKDw"
+    },
+    {
+      "nombre": "Andrdddfdsf",
+      "apellido": "Gutierrez",
+      "email": "acgo@gmail.com",
+      "password": "1",
+      "roles": [
+        "USER"
+      ],
+      "id": "Mcc5zrpJ5ac"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "holaaa",
+      "description": "dfdsf",
+      "status": "Completada",
+      "dueDate": "2026-06-17",
+      "userId": null,
+      "id": "KZMX5L626zA"
+    },
+    {
+      "title": "Esto es una prueba",
+      "description": "hpplalla",
+      "status": "Pendiente",
+      "dueDate": "2026-06-16",
+      "userId": "Mcc5zrpJ5ac",
+      "id": "lttl_t5ksE4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

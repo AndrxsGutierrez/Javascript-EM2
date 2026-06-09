@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "frontend": "npm --prefix TaskFlowSPA run dev",
+    "backend": "npm --prefix TaskFlowAPI run server"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
